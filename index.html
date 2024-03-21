@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combined Form</title>
+</head>
+<body>
+  <form>
+    Ім’я:<br>
+    <input type='text' name='firstname'><br>
+    Прізвище:<br>
+    <input type='text' name='lastname'>
+  </form>
+  
+  <form>
+    <input type='radio' name='gender" value='male' checked> Чоловіча<br>
+    <input type='radio' name='gender' value='female'> Жіноча<br>
+    <input type='radio' name='gender' value='other'> Інше
+  </form>
+  
+  <form action='/action_page.html'>
+    Ім’я:<br>
+    <input type='text' name='firstname' value='Mickey'><br>
+    Прізвище:<br>
+    <input type='text' name='lastname' value='Mouse'><br><br>
+    <input type='submit' value='Відправити'>
+  </form>
+  
+  <form action='/action_page.html'>
+    First name:<br>
+    <input type='text' value='Mickey'><br>
+    Last name:<br>
+    <input type='text' name='lastname' value='Mouse'><br><br>
+    <input type='submit' value='Відправити'>
+  </form>
+  
+  <form action='/action_page.html'>
+    <fieldset>
+      <legend>Особиста інформація:</legend>
+      Ім’я:<br>
+      <input type='text' name='firstname' value='Mickey'><br>
+      Прізвище:<br>
+      <input type='text' name='lastname' value='Mouse'><br><br>
+      <input type='submit' value='Відправити'>
+    </fieldset>
+  </form>
+  
+  <form action='/action_page.html'>
+    <label for="fname">Ім’я:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Прізвище:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Відправити">
+  </form>
+
+  <!-- Remaining forms are merged here -->
+  <!-- Please let me know if you need any modifications -->
+</body>
+</html>
